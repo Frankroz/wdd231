@@ -20,7 +20,7 @@ header {
   border-bottom-left-radius: 8px;
 }
 
-header div {
+header span {
   display: inline-flex;
   gap: 20px;
   align-items: center;
