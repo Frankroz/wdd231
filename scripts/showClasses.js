@@ -7,7 +7,7 @@ const classes = [
 
 const btn_texts = ["All", ...new Set(classes.map((cls) => cls.type))];
 const grid = document.getElementById("course-grid");
-const certificate_nav = document.getElementById("certificate-nav");
+const certificate_btns = document.getElementById("certificate-btns");
 const menu = document.querySelector("nav");
 const menu_icon = document.getElementById("menu_icon");
 const header = document.querySelector("header");
@@ -35,14 +35,14 @@ const filterClasses = (b) => {
 
 // Display the class filters
 const displayBtns = () => {
-  certificate_nav.innerHTML = "";
+  certificate_btns.innerHTML = "";
 
   btn_texts.forEach((b) => {
     const btn = document.createElement("button");
     btn.innerText = b;
 
     btn.addEventListener("click", () => {
-      const btns = certificate_nav.querySelectorAll("button");
+      const btns = certificate_btns.querySelectorAll("button");
       btns.forEach((b) => b.classList.remove("active"));
 
       btn.classList.add("active");
@@ -54,10 +54,10 @@ const displayBtns = () => {
       }
     });
 
-    certificate_nav.appendChild(btn);
+    certificate_btns.appendChild(btn);
   });
 
-  const allButton = certificate_nav.querySelector("button");
+  const allButton = certificate_btns.querySelector("button");
   if (allButton) {
     allButton.classList.add("active");
   }

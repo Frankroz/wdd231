@@ -79,6 +79,10 @@ nav a:hover {
   *   Main
   *
   ************************************/
+main {
+  padding: 20px;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -137,16 +141,16 @@ nav a:hover {
   border-top-right-radius: 8px;
 }
 
-.certificate-nav {
+.certificate-btns {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.certificate-nav::after {
+.certificate-btns::after {
   border: #000 solid 5px;
 }
 
-.certificate-nav button {
+.certificate-btns button {
   background-color: #ddd;
   border: none;
   padding: 10px 20px;
@@ -156,7 +160,7 @@ nav a:hover {
   transition: 0.2s;
 }
 
-.certificate-nav button.active {
+.certificate-btns button.active {
   background-color: #aaa;
 }
 
@@ -238,5 +242,9 @@ footer img {
 @media only screen and (min-width: 874px) {
   #menu_icon {
     display: none;
+  }
+
+  nav {
+    display: block;
   }
 }

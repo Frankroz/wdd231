@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
-      name="homepage"
-      content="WDD 231 - Web Frontend Dev I - Francisco Rodriguez - Landing page"
+      name="description"
+      content="WDD 231 - Web Frontend Dev I - Francisco Rodriguez - Homepage"
     />
     <meta name="author" content="Francisco Rodriguez" />
     <title>WDD 231 - Web Frontend Dev I - Francisco Rodriguez</title>
@@ -13,6 +13,13 @@
 
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/showClasses.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -35,32 +42,33 @@
       </nav>
     </header>
     <main>
+      <h1>Home</h1>
       <div class="container">
         <div class="box">
           <h2>Course Work</h2>
-          <div class="content">
+          <section class="content">
             <ul>
               <li></li>
               <li></li>
               <li></li>
             </ul>
-          </div>
+          </section>
         </div>
         <div class="box">
           <h2>Bogota, Colombia</h2>
-          <div class="content">
+          <section class="content">
             <img src="/images/bogota.jpg" alt="Bogota img" />
             <p>Urban life</p>
-          </div>
+          </section>
         </div>
       </div>
 
       <div class="certificate">
         <h2>Web and Computer Programming Certificate</h2>
-        <div class="content">
-          <div id="certificate-nav" class="certificate-nav"></div>
+        <section class="content">
+          <div id="certificate-btns" class="certificate-btns"></div>
           <div id="course-grid" class="course-grid"></div>
-        </div>
+        </section>
       </div>
     </main>
     <footer>
