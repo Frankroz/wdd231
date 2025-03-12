@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="homepage"
+      content="WDD 231 - Web Frontend Dev I - Francisco Rodriguez - Landing page"
+    />
+    <meta name="author" content="Francisco Rodriguez" />
+    <title>WDD 231 - Web Frontend Dev I - Francisco Rodriguez</title>
+    <link rel="stylesheet" href="styles/base.css" />
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/showClasses.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          class="profile-pic"
+          src="/images/profile.jpg"
+          alt="Profile Picture"
+        />
+        <h1>Francisco Rodriguez</h1>
+        <img id="menu_icon" class="show" src="images/menu_icon.png" alt="" />
+      </div>
+      <nav>
+        <a href="/">Home</a>
+        <a href="#">Chamber</a>
+        <a href="https://github.com/Frankroz">GitHub Profile</a>
+        <a href="https://www.linkedin.com/in/francisco-rodriguez-793039248/"
+          >LinkedIn</a
+        >
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="box">
+          <h2>Course Work</h2>
+          <div class="content">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <h2>Bogota, Colombia</h2>
+          <div class="content">
+            <img src="/images/bogota.jpg" alt="Bogota img" />
+            <p>Urban life</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="certificate">
+        <h2>Web and Computer Programming Certificate</h2>
+        <div class="content">
+          <div id="certificate-nav" class="certificate-nav"></div>
+          <div id="course-grid" class="course-grid"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; <span id="currentyear"></span> Francisco Rodriguez</p>
+      <p id="lastModified"></p>
+      <img src="/images/colombian_flag.jpg" alt="Colombian Flag" />
+    </footer>
+  </body>
+</html>
