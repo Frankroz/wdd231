@@ -18,7 +18,6 @@ menu_icon.addEventListener("click", () => {
     menu_icon.setAttribute("src", "../images/close_icon.png");
     menu.classList.add("show");
     menu.style.display = "flex";
-    menu.style.flexDirection = "column";
   } else {
     menu_icon.setAttribute("src", "../images/menu_icon.png");
     menu.classList.remove("show");

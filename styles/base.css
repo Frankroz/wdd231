@@ -226,6 +226,7 @@ footer img {
   nav {
     display: none;
     background-color: rgba(0, 0, 0, 0);
+    flex-direction: column;
   }
 
   .container {
@@ -242,9 +243,5 @@ footer img {
 @media only screen and (min-width: 874px) {
   #menu_icon {
     display: none;
-  }
-
-  nav {
-    display: block;
   }
 }
