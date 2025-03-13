@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #2e294e;
 }
 
 /***********************************
@@ -16,8 +16,6 @@ header {
   color: white;
   padding: 20px;
   text-align: center;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
 }
 
 header span {
@@ -72,6 +70,9 @@ nav a:hover {
   ************************************/
 main {
   padding: 20px;
+  background-color: #f4f4f4;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .container {
@@ -151,6 +152,10 @@ main {
   transition: 0.2s;
 }
 
+.certificate-btns button:hover {
+  background-color: #AEAEAE;
+}
+
 .certificate-btns button.active {
   background-color: #aaa;
 }
@@ -171,27 +176,27 @@ main {
 }
 
 .semester1 {
-  background-color: #60712f;
+  background-color: #eccc68;
 }
 
 .semester1:hover {
-  background-color: #526028;
+  background-color: #e4b528;
 }
 
 .semester2 {
-  background-color: #ec9a29;
+  background-color: #70a1ff;
 }
 
 .semester2:hover {
-  background-color: #d98713;
+  background-color: #226fff;
 }
 
 .semester3 {
-  background-color: #07a0c3;
+  background-color: #7bed9f;
 }
 
 .semester3:hover {
-  background-color: #068ba9;
+  background-color: #39e46f;
 }
 
 /***********************************
