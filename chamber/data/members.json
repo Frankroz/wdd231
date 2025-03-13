@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Tech Solutions Bogota",
+    "address": "Calle 26 # 92-32, Bogota, Colombia",
+    "phone_number": "+57 (1) 742-0300",
+    "website_url": "www.techsolutionsbogota.com",
+    "image": "techsolutions_logo.jpg",
+    "membership_level": 3,
+    "other_information": {
+      "industry": "Technology",
+      "established_year": 2007,
+      "employee_count": 450,
+      "services": ["Software Development", "IT Consulting", "Cybersecurity"],
+      "tagline": "Innovating the future, one solution at a time."
+    }
+  },
+  {
+    "name": "Andean Consulting Group",
+    "address": "Carrera 13 # 26A-47, Bogota, Colombia",
+    "phone_number": "+57 (1) 334-7890",
+    "website_url": "www.andeanconsulting.com",
+    "image": "andean_logo.jpg",
+    "membership_level": 2,
+    "other_information": {
+      "industry": "Consulting",
+      "established_year": 1995,
+      "employee_count": 280,
+      "services": [
+        "Business Strategy",
+        "Financial Planning",
+        "Market Research"
+      ],
+      "tagline": "Guiding your success in the Andean region."
+    }
+  },
+  {
+    "name": "Bogota Digital Marketing",
+    "address": "Avenida 68 # 75A-50, Bogota, Colombia",
+    "phone_number": "+57 (1) 467-1234",
+    "website_url": "www.bogotadigital.com",
+    "membership_level": 1,
+    "image": "bogotadigital_logo.jpg",
+    "other_information": {
+      "industry": "Marketing",
+      "established_year": 2012,
+      "employee_count": 60,
+      "services": [
+        "Digital Marketing",
+        "Social Media Marketing",
+        "Content Creation"
+      ],
+      "tagline": "Connecting you to your audience, digitally."
+    }
+  },
+  {
+    "name": "Ingenieria Bogota SAS",
+    "address": "Diagonal 24C # 80B-09, Bogota, Colombia",
+    "phone_number": "+57 (1) 410-5678",
+    "website_url": "www.ingenieriabogota.com",
+    "image": "ingenieria_logo.jpg",
+    "membership_level": 3,
+    "other_information": {
+      "industry": "Engineering",
+      "established_year": 1988,
+      "employee_count": 900,
+      "services": [
+        "Civil Engineering",
+        "Structural Engineering",
+        "Project Management"
+      ],
+      "tagline": "Building a stronger future for Bogota."
+    }
+  },
+  {
+    "name": "Eco Energy Colombia",
+    "address": "Calle 100 # 8A-49, Bogota, Colombia",
+    "phone_number": "+57 (1) 635-4321",
+    "website_url": "www.ecoenergycolombia.com",
+    "image": "ecoenergy_logo.jpg",
+    "membership_level": 2,
+    "other_information": {
+      "industry": "Renewable Energy",
+      "established_year": 2017,
+      "employee_count": 120,
+      "services": [
+        "Solar Energy",
+        "Energy Efficiency",
+        "Sustainable Solutions"
+      ],
+      "tagline": "Powering Colombia, sustainably."
+    }
+  },
+  {
+    "name": "Logistics Bogota Express",
+    "address": "Avenida Boyaca # 12B-18, Bogota, Colombia",
+    "phone_number": "+57 (1) 456-7890",
+    "website_url": "www.logisticsbogota.com",
+    "image": "logistics_logo.jpg",
+    "membership_level": 1,
+    "other_information": {
+      "industry": "Logistics",
+      "established_year": 1993,
+      "employee_count": 350,
+      "services": ["Freight Forwarding", "Warehousing", "Distribution"],
+      "tagline": "Delivering Bogota, on time, every time."
+    }
+  },
+  {
+    "name": "Creative Design Bogota",
+    "address": "Carrera 7 # 24-89, Bogota, Colombia",
+    "phone_number": "+57 (1) 243-5432",
+    "website_url": "www.creativedesignbogota.com",
+    "image": "creativedesign_image.jpg",
+    "membership_level": 3,
+    "other_information": {
+      "industry": "Design",
+      "established_year": 2009,
+      "employee_count": 80,
+      "services": ["Graphic Design", "Web Design", "Branding", "UI/UX Design"],
+      "tagline": "Designing experiences, creating impact."
+    }
+  },
+  {
+    "name": "Bogota Financial Services",
+    "address": "Calle 72 # 10-25, Bogota, Colombia",
+    "phone_number": "+57 (1) 555-9090",
+    "website_url": "www.bogotafinancial.com",
+    "image": "financial_logo.jpg",
+    "membership_level": 2,
+    "other_information": {
+      "industry": "Finance",
+      "established_year": 2000,
+      "employee_count": 200,
+      "services": ["Financial Planning", "Investment Management", "Accounting"],
+      "tagline": "Securing your financial future, today."
+    }
+  },
+  {
+    "name": "Discover Colombia Travel",
+    "address": "Carrera 15 # 93-58, Bogota, Colombia",
+    "phone_number": "+57 (1) 666-7777",
+    "website_url": "www.discovercolombia.com",
+    "image": "travel_logo.jpg",
+    "membership_level": 1,
+    "other_information": {
+      "industry": "Tourism",
+      "established_year": 2014,
+      "employee_count": 40,
+      "services": ["Tour Packages", "Travel Planning", "Adventure Tours"],
+      "tagline": "Explore Colombia, discover yourself."
+    }
+  }
+]

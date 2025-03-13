@@ -1,0 +1,260 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/***********************************
+  *
+  *   Header styles
+  *
+  ************************************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #2a2d36;
+}
+
+.logo {
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+  color: #fff;
+}
+
+.logo img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: x-large;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+#menu_icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.show {
+  display: flex;
+}
+
+/***********************************
+  *
+  *   Main
+  *
+  ************************************/
+
+.hero {
+  position: relative;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  filter: blur(2px);
+}
+
+.hero-image h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: xx-large;
+}
+
+.keynote-btn {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  font-size: medium;
+  padding: 20px 30px;
+  background-color: #0e79b2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 8px;
+}
+
+.keynote-btn:hover {
+  background-color: #0b608d;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.businesses {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.display-controls {
+  margin-bottom: 10px;
+}
+
+.display-controls button {
+  padding: 5px 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0;
+  transition: 0.2s;
+}
+
+.display-controls button:hover {
+  background-color: #ddd;
+}
+
+.display-controls button.active {
+  background-color: #0e79b2;
+  color: white;
+}
+
+.display-controls button.active:hover {
+  background-color: #0b608d;
+}
+
+.business-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.business-card {
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.business-card img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.business-header {
+  background-color: #0e79b2;
+  padding: 20px 10px;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.business-header.list-view-header {
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 8px;
+}
+
+.business-content {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+}
+
+/***********************************
+  *
+  *   Footer style
+  *
+  ************************************/
+
+footer {
+  background-color: #2a2d36;
+  padding: 20px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons img {
+  width: 50px;
+  margin-left: 30px;
+}
+
+.business-cards-container.list-view {
+  display: flex;
+  flex-direction: column;
+}
+
+.business-cards-container.list-view .business-card {
+  display: flex;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.business-cards-container.list-view .business-card img {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    display: none;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: column;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .keynote-btn {
+    position:unset
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #menu_icon {
+    display: none;
+  }
+}

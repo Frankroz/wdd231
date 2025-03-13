@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="WDD 231 - Chamber of commerce - Francisco Rodriguez - Homepage"
+    />
+    <meta name="author" content="Francisco Rodriguez" />
+    <title>
+      WDD 231 - Chamber of commerce - Francisco Rodriguez - Homepage
+    </title>
+    <link rel="stylesheet" href="styles/directory.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+
+    <script src="./scripts/getdates.js" defer></script>
+    <script src="./scripts/showBusinesses.js" defer></script>
+    <script src="./scripts/navBarBtns.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./images/logo.jpg" alt="Bogota Business Network Logo" />
+        <h1>Bogota Business Network</h1>
+        <img id="menu_icon" class="show" src="./images/menu_icon.png" alt="" />
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Directory</a>
+        <a href="#">Join</a>
+        <a href="#">Discover</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-image">
+          <img src="./images/hero.jpg" alt="Hero Image" />
+          <h1>Improve your networking</h1>
+        </div>
+        <button class="keynote-btn">Keynote Tickets</button>
+      </section>
+
+      <section class="content">
+        <div class="events">
+          <h2>Businesses</h2>
+        </div>
+      </section>
+
+      <section id="businesses" class="businesses">
+        <div class="display-controls">
+          <button id="grid-view-btn" class="active">Grid View</button>
+          <button id="list-view-btn">List View</button>
+        </div>
+        <div
+          id="business-cards-container"
+          class="business-cards-container"
+        ></div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-info">
+          <p>Bogota Business Network</p>
+          <p>Cll 65 - 24 # 214</p>
+          <p>info@bbnetwork.org</p>
+          <p>321-555-2300</p>
+        </div>
+        <div class="social-icons">
+          <a href="#"><img src="./images/youtube.png" alt="YouTube" /></a>
+          <a href="#"><img src="./images/twitter.png" alt="Twitter" /></a>
+          <a href="#"><img src="./images/linkedin.png" alt="LinkedIn" /></a>
+        </div>
+        <div class="date">
+          <p>&copy; <span id="currentyear"></span> Francisco Rodriguez</p>
+          <p>WDD231 Project</p>
+          <p id="lastModified"></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
