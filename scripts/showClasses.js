@@ -142,7 +142,7 @@ const displayBtns = () => {
 
 // Display the classes from the list
 const displayClasses = (filteredClasess) => {
-  var ccount = 0;
+  let ccount = 0;
   grid.innerHTML = "";
 
   filteredClasess.forEach((c) => {

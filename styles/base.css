@@ -191,6 +191,11 @@ main {
   background-color: #aaa;
 }
 
+.credits {
+  text-align: end;
+  font-size: large;
+}
+
 /***********************************
   *
   *   Footer style
