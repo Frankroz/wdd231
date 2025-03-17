@@ -153,7 +153,7 @@ main {
 }
 
 .certificate-btns button:hover {
-  background-color: #AEAEAE;
+  background-color: #aeaeae;
 }
 
 .certificate-btns button.active {
@@ -175,28 +175,20 @@ main {
   transition: 0.2s;
 }
 
-.semester1 {
-  background-color: #eccc68;
-}
-
-.semester1:hover {
-  background-color: #e4b528;
-}
-
-.semester2 {
+.completed {
   background-color: #70a1ff;
 }
 
-.semester2:hover {
+.completed:hover {
   background-color: #226fff;
 }
 
-.semester3 {
-  background-color: #7bed9f;
+.not-completed {
+  background-color: #ddd;
 }
 
-.semester3:hover {
-  background-color: #39e46f;
+.not-completed:hover {
+  background-color: #aaa;
 }
 
 /***********************************
