@@ -44,7 +44,6 @@ nav a:hover {
 
 #menu_icon {
   width: 50px;
-  height: 50px;
   cursor: pointer;
 }
 
@@ -161,7 +160,6 @@ nav a:hover {
 
 .business-card img {
   width: 100px;
-  height: 100px;
   margin-right: 10px;
 }
 
