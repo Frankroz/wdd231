@@ -8,20 +8,25 @@
       content="WDD 231 - Chamber of commerce - Francisco Rodriguez - Homepage"
     />
     <meta name="author" content="Francisco Rodriguez" />
-    <title>
-      Directory
-    </title>
-    <link rel="stylesheet" href="styles/directory.css" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles/base.css" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 
-    <meta property="og:title" content="Bogota Business Network">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://frankroz.github.io/wdd231/chamber/images/og-image.png">
-    <meta property="og:url" content="https://frankroz.github.io/wdd231/chamber/directory.html">
+    <meta property="og:title" content="Bogota Business Network" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://frankroz.github.io/wdd231/chamber/images/og-image.png"
+    />
+    <meta
+      property="og:url"
+      content="https://frankroz.github.io/wdd231/chamber/directory.html"
+    />
 
     <script src="./scripts/getdates.js" defer></script>
-    <script src="./scripts/showBusinesses.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
     <script src="./scripts/navBarBtns.js" defer></script>
+    <script src="./scripts/showRandomBusinesses.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,26 +53,49 @@
       <section class="hero">
         <div class="hero-image">
           <img src="./images/hero.jpg" alt="Hero Image" />
-          <h1>Improve your networking</h1>
+          <h1>Welcome</h1>
         </div>
-        <button class="keynote-btn">Keynote Tickets</button>
+        <a href="#" class="keynote-btn">Join the Chamber</a>
       </section>
-
+      <h1>Homepage</h1>
       <section class="content">
         <div class="events">
-          <h2>Directory</h2>
+          <h2>Events</h2>
+          <div class="container">
+            <p>Events will be displayed here.</p>
+          </div>
+        </div>
+        <div class="weather">
+          <h2>Current Weather</h2>
+          <div class="wea-container">
+            <div class="weather-icon">
+              <img
+                src="./images/placeholder-loading-icon.png"
+                alt="Weather Icon"
+              />
+            </div>
+            <div>
+              <p class="temperature">Loading...</p>
+              <p class="description">Loading...</p>
+              <p class="high-low">High: Loading... Low: Loading...</p>
+              <p class="humidity">Humidity: Loading...</p>
+              <p class="sunrise">Sunrise: Loading...</p>
+              <p class="sunset">Sunset: Loading...</p>
+            </div>
+          </div>
+        </div>
+        <div class="forecast">
+          <h2>Weather Forecast</h2>
+          <div class="container">
+            <p class="today">Today: Loading...</p>
+            <p class="twoDaysAfter">Two days after: Loading...</p>
+            <p class="threeDaysAfter">Three days after: Loading...</p>
+          </div>
         </div>
       </section>
 
       <section id="businesses" class="businesses">
-        <div class="display-controls">
-          <button id="grid-view-btn" class="active">Grid View</button>
-          <button id="list-view-btn">List View</button>
-        </div>
-        <div
-          id="business-cards-container"
-          class="business-cards-container"
-        ></div>
+        <img src="./images/placeholder-loading-icon.png" alt="loading" />
       </section>
     </main>
     <footer>
