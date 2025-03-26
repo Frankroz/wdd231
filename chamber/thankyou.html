@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="WDD 231 - Chamber of commerce - Francisco Rodriguez - Homepage"
     />
     <meta name="author" content="Francisco Rodriguez" />
-    <title>Home Page</title>
-    <link rel="stylesheet" href="styles/base.css" />
+    <title>Thank You</title>
+    <link rel="stylesheet" href="./styles/thankyou.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 
     <meta property="og:title" content="Bogota Business Network" />
@@ -24,9 +25,8 @@
     />
 
     <script src="./scripts/getdates.js" defer></script>
-    <script src="./scripts/weather.js" defer></script>
     <script src="./scripts/navBarBtns.js" defer></script>
-    <script src="./scripts/showRandomBusinesses.js" defer></script>
+    <script src="./scripts/thankyou.js" defer></script>
   </head>
   <body>
     <header>
@@ -43,53 +43,22 @@
       </nav>
     </header>
     <main>
-      <section class="hero">
-        <div class="hero-image">
-          <img src="./images/hero.jpg" alt="Hero Image" />
-          <h1>Welcome</h1>
-        </div>
-        <a href="#" class="keynote-btn">Join the Chamber</a>
-      </section>
-      <h1>Home Page</h1>
-      <section class="content">
-        <div class="events">
-          <h2>Events</h2>
-          <div class="container">
-            <p>Events will be displayed here.</p>
-          </div>
-        </div>
-        <div class="weather">
-          <h2>Current Weather</h2>
-          <div class="wea-container">
-            <div class="weather-icon">
-              <img
-                src="./images/placeholder-loading-icon.png"
-                alt="Weather Icon"
-              />
-            </div>
-            <div>
-              <p class="temperature">Loading...</p>
-              <p class="description">Loading...</p>
-              <p class="high-low">High: Loading... Low: Loading...</p>
-              <p class="humidity">Humidity: Loading...</p>
-              <p class="sunrise">Sunrise: Loading...</p>
-              <p class="sunset">Sunset: Loading...</p>
-            </div>
-          </div>
-        </div>
-        <div class="forecast">
-          <h2>Weather Forecast</h2>
-          <div class="container">
-            <p class="today">Today: Loading...</p>
-            <p class="twoDaysAfter">Two days after: Loading...</p>
-            <p class="threeDaysAfter">Three days after: Loading...</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="businesses" class="businesses">
-        <img src="./images/placeholder-loading-icon.png" alt="loading" />
-      </section>
+      <h1>Thank You!</h1>
+      <p>
+        Thank you for submitting your application to join the Bogota Business Network.
+      </p>
+      <div class="form-data">
+        <h2>Your Information:</h2>
+        <p><strong>First Name:</strong> <span id="firstNameData"></span></p>
+        <p><strong>Last Name:</strong> <span id="lastNameData"></span></p>
+        <p><strong>Email:</strong> <span id="emailData"></span></p>
+        <p><strong>Mobile Phone:</strong> <span id="phoneData"></span></p>
+        <p><strong>Business Name:</strong> <span id="orgNameData"></span></p>
+        <p>
+          <strong>Application Date/Time:</strong>
+          <span id="timestampData"></span>
+        </p>
+      </div>
     </main>
     <footer>
       <div class="footer-content">
