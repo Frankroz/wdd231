@@ -28,6 +28,7 @@ header {
 .logo img {
   width: 70px;
   margin-right: 10px;
+  height: 70px;
 }
 
 nav a {
@@ -44,6 +45,7 @@ nav a:hover {
 
 #menu_icon {
   width: 50px;
+  height: 50px;
   cursor: pointer;
 }
 
@@ -72,6 +74,7 @@ main > h1 {
 
 .hero-image img {
   width: 100%;
+  height: auto;
   display: block;
   overflow: hidden;
   filter: blur(2px);
@@ -200,17 +203,25 @@ footer {
   background-color: #2a2d36;
   padding: 20px;
   color: #fff;
-}
-
-.footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
 .social-icons img {
   width: 50px;
+  height: auto;
   margin-left: 30px;
+  display: block;
+}
+
+.date {
+  white-space: nowrap;
 }
 
 .business-cards-container.list-view {
@@ -235,16 +246,14 @@ footer {
     flex-direction: column;
   }
 
+  .logo > h1 {
+    font-size: 1rem;
+  }
+
   nav {
     display: none;
     background-color: rgba(0, 0, 0, 0);
     flex-direction: column;
-  }
-
-  .social-icons {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
   }
 
   .hero {
@@ -255,11 +264,19 @@ footer {
   }
 
   .keynote-btn {
-    position: unset;
+    position: static;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .date {
+    margin-top: 10px;
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 901px) {
   #menu_icon {
     display: none;
   }

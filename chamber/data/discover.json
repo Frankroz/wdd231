@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "name": "Monserrate",
+      "image": "./images/monserrate.webp",
+      "address": "Cerro de Monserrate, Bogota",
+      "description": "Iconic mountain offering panoramic views of Bogota."
+    },
+    {
+      "name": "Gold Museum",
+      "image": "./images/gold_museum.webp",
+      "address": "Cra. 6 #15-88, Bogota",
+      "description": "Exhibits pre-Hispanic gold artifacts."
+    },
+    {
+      "name": "La Candelaria",
+      "image": "./images/la_candelaria.webp",
+      "address": "La Candelaria District, Bogota",
+      "description": "Historic neighborhood with colonial architecture."
+    },
+    {
+      "name": "Botanical Garden",
+      "image": "./images/botanical_garden.webp",
+      "address": "Calle 63 #68-95, Bogota",
+      "description": "Large garden showcasing Colombia's flora."
+    },
+    {
+      "name": "Usaquen Market",
+      "image": "./images/usaquen_market.webp",
+      "address": "Usaquen District, Bogota",
+      "description": "Popular Sunday market with crafts and food."
+    },
+    {
+      "name": "Simon Bolivar Park",
+      "image": "./images/simon_bolivar_park.webp",
+      "address": "Bogota, Colombia",
+      "description": "Large urban park with recreational activities."
+    },
+    {
+      "name": "National Museum",
+      "image": "./images/national_museum.webp",
+      "address": "Cra. 7 #28-66, Bogota",
+      "description": "Displays Colombian history and culture."
+    },
+    {
+      "name": "Zona G",
+      "image": "./images/zona_g.webp",
+      "address": "Zona G, Bogota",
+      "description": "Gastronomic zone with diverse restaurants."
+    }
+  ]
+}

@@ -8,8 +8,10 @@
       content="WDD 231 - Chamber of commerce - Francisco Rodriguez - Homepage"
     />
     <meta name="author" content="Francisco Rodriguez" />
-    <title>Directory</title>
-    <link rel="stylesheet" href="styles/directory.css" />
+    <title>Discover</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/discover.css" />
+
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 
     <meta property="og:title" content="Bogota Business Network" />
@@ -20,11 +22,11 @@
     />
     <meta
       property="og:url"
-      content="https://frankroz.github.io/wdd231/chamber/directory.html"
+      content="https://frankroz.github.io/wdd231/chamber/discover.html"
     />
 
     <script src="./scripts/getdates.js" defer></script>
-    <script src="./scripts/showBusinesses.js" defer></script>
+    <script src="./scripts/discover.js" defer></script>
     <script src="./scripts/navBarBtns.js" defer></script>
   </head>
   <body>
@@ -38,53 +40,47 @@
         <a href="./">Home</a>
         <a href="./directory.html">Directory</a>
         <a href="./join.html">Join</a>
-        <a href="./discover.html">Discover</a>
+        <a href="#">Discover</a>
       </nav>
     </header>
     <main>
       <section class="hero">
         <div class="hero-image">
           <img src="./images/hero.webp" alt="Hero Image" />
-          <h1>Improve your networking</h1>
+          <h1>Get to know the place</h1>
         </div>
         <button class="keynote-btn">Keynote Tickets</button>
       </section>
 
       <section class="content">
-        <div class="events">
-          <h2>Directory</h2>
-        </div>
+        <h2>Discover</h2>
       </section>
 
-      <section id="businesses" class="businesses">
-        <div class="display-controls">
-          <button id="grid-view-btn" class="active">Grid View</button>
-          <button id="list-view-btn">List View</button>
-        </div>
-        <div
-          id="business-cards-container"
-          class="business-cards-container"
-        ></div>
-      </section>
+      <div class="discover-grid">
+        <aside class="sidebar">
+          <div id="visit-message"></div>
+        </aside>
+        <section class="gallery">
+          <div id="discover-cards"></div>
+        </section>
+      </div>
     </main>
     <footer>
-      <div class="footer-content">
-        <div class="footer-info">
-          <p>Bogota Business Network</p>
-          <p>Cll 65 - 24 # 214</p>
-          <p>info@bbnetwork.org</p>
-          <p>321-555-2300</p>
-        </div>
-        <div class="social-icons">
-          <a href="#"><img src="./images/youtube.png" alt="YouTube" /></a>
-          <a href="#"><img src="./images/twitter.png" alt="Twitter" /></a>
-          <a href="#"><img src="./images/linkedin.png" alt="LinkedIn" /></a>
-        </div>
-        <div class="date">
-          <p>&copy; <span id="currentyear"></span> Francisco Rodriguez</p>
-          <p>WDD231 Project</p>
-          <p id="lastModified"></p>
-        </div>
+      <div class="footer-info">
+        <p>Bogota Business Network</p>
+        <p>Cll 65 - 24 # 214</p>
+        <p>info@bbnetwork.org</p>
+        <p>321-555-2300</p>
+      </div>
+      <div class="social-icons">
+        <a href="#"><img src="./images/youtube.png" alt="YouTube" loading="lazy"/></a>
+        <a href="#"><img src="./images/twitter.png" alt="Twitter" loading="lazy"/></a>
+        <a href="#"><img src="./images/linkedin.png" alt="LinkedIn" loading="lazy"/></a>
+      </div>
+      <div class="date">
+        <p>&copy; <span id="currentyear"></span> Francisco Rodriguez</p>
+        <p>WDD231 Project</p>
+        <p id="lastModified"></p>
       </div>
     </footer>
   </body>
