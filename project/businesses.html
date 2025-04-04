@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sesquile Community Resource Hub - Businesses"
+    />
+    <meta name="author" content="Francisco Rodriguez" />
+    <title>Businesses - Sesquile Community Resource Hub</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/businesses.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+
+    <script src="scripts/navbar.js" defer></script>
+    <script type="module" src="scripts/businesses.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="title_heading">
+        <a class="logo" href="#">
+          <img src="./images/logo.jpg" alt="Sesquile Community Resource Hub" />
+          <h1>Sesquile Community Resource Hub</h1>
+        </a>
+        <a class="toggle-button">
+          <img id="menu_icon" src="./images/menu_icon.png" alt="menu_icon" />
+          <img id="close_icon" src="./images/close_icon.png" alt="close_icon" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./businesses.html">Businesses</a></li>
+          <li><a href="./attractions.html">Attractions</a></li>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./aboutus.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <h2>Businesses</h2>
+      </section>
+
+      <section class="business-search">
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Search Businesses..."
+        />
+        <div class="search-btns">
+          <button id="search-btn">Search</button>
+          <button id="reset" disabled>Reset</button>
+        </div>
+      </section>
+
+      <section id="business-grid" class="business-grid">
+        <div class="business-card">
+          <div class="placeholder-business"></div>
+          <h3>Heading</h3>
+        </div>
+        <div class="business-card">
+          <div class="placeholder-business"></div>
+          <h3>Heading</h3>
+        </div>
+        <div class="business-card">
+          <div class="placeholder-business"></div>
+          <h3>Heading</h3>
+        </div>
+        <div class="business-card">
+          <div class="placeholder-business"></div>
+          <h3>Heading</h3>
+        </div>
+        <div class="business-card">
+          <div class="placeholder-business"></div>
+          <h3>Heading</h3>
+        </div>
+        <div class="business-card">
+          <div class="placeholder-business"></div>
+          <h3>Heading</h3>
+        </div>
+        <div class="business-card">
+          <div class="placeholder-business"></div>
+          <h3>Heading</h3>
+        </div>
+        <div class="business-card">
+          <div class="placeholder-business"></div>
+          <h3>Heading</h3>
+        </div>
+        <div class="business-card">
+          <div class="placeholder-business"></div>
+          <h3>Heading</h3>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="currentyear"></span
+        ><span> Sesquile Community Resource Hub</span>
+      </p>
+    </footer>
+  </body>
+</html>

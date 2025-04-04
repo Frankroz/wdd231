@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Sesquilé Celebrates Annual Corn Festival",
+    "date": "2023-11-15",
+    "summary": "The town of Sesquilé held its annual Corn Festival, showcasing local agricultural traditions and delicious corn-based dishes.",
+    "image": "images/news/corn_festival.webp"
+  },
+  {
+    "title": "New Hiking Trails Opened in Guatavita Lake Region",
+    "date": "2023-10-28",
+    "summary": "Hikers can now enjoy newly opened trails around the scenic Guatavita Lake, offering breathtaking views and natural beauty.",
+    "image": "images/news/guatavita_trails.webp"
+  },
+  {
+    "title": "Sesquilé Artisan Market Showcases Local Crafts",
+    "date": "2023-10-10",
+    "summary": "Local artisans displayed their handmade crafts and products at the Sesquilé Artisan Market, attracting visitors from across the region.",
+    "image": "images/news/artisan_market.webp"
+  },
+  {
+    "title": "Community Project Restores Historic Church Facade",
+    "date": "2023-09-22",
+    "summary": "A community-led project successfully restored the facade of the historic Sesquilé church, preserving a vital part of the town's heritage.",
+    "image": "images/church_restoration.webp"
+  },
+  {
+    "title": "Sesquilé Wins Regional Agricultural Award",
+    "date": "2023-09-05",
+    "summary": "Sesquilé's agricultural community received a regional award for its sustainable farming practices and high-quality produce.",
+    "image": "images/agricultural_award.webp"
+  },
+  {
+    "title": "Local School Hosts Environmental Awareness Day",
+    "date": "2023-08-18",
+    "summary": "Students from the Sesquilé school organized an Environmental Awareness Day, promoting eco-friendly practices and conservation efforts.",
+    "image": "images/environmental_day.webp"
+  },
+  {
+    "title": "Sesquilé's Youth Soccer Team Advances to Regional Finals",
+    "date": "2023-08-02",
+    "summary": "The Sesquilé youth soccer team secured a spot in the regional finals after a thrilling victory in the semi-final match.",
+    "image": "images/soccer_finals.webp"
+  },
+  {
+    "title": "New Community Library Opens in Sesquilé",
+    "date": "2023-07-15",
+    "summary": "Sesquilé residents now have access to a new community library, offering a wide range of books and educational resources.",
+    "image": "images/community_library.webp"
+  },
+  {
+    "title": "Sesquilé's Traditional Music Festival a Success",
+    "date": "2023-07-01",
+    "summary": "The annual Traditional Music Festival in Sesquilé drew large crowds, celebrating the region's rich musical heritage.",
+    "image": "images/music_festival.webp"
+  }
+]

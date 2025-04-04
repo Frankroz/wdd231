@@ -1,0 +1,104 @@
+.page-title {
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.business-search {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  gap: 1rem;
+}
+
+.search-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+#reset {
+  background-color: #ddd;
+}
+
+.business-search input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.business-search button {
+  padding: 10px 20px;
+  background-color: var(--accent_1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+.business-search button:hover {
+  background-color: #80872c;
+}
+
+.business-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+  padding: 20px;
+  min-height: 40vh;
+}
+
+.business-card {
+  background-color: #f9f8f4;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  padding: 15px;
+  text-align: center;
+  color: #181914;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.business-card:hover {
+  transform: translateY(-5px);
+}
+
+.business-card img {
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.business-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .business-search {
+    max-width: 90%;
+  }
+  .business-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 500px) {
+  .business-search {
+    flex-direction: column;
+  }
+
+  .business-search input[type="text"] {
+    width: 90%;
+  }
+}

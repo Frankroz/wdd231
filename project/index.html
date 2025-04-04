@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sesquile Community Resource Hub - Home"
+    />
+    <meta name="author" content="Francisco Rodriguez" />
+    <title>Home - Sesquile Community Resource Hub</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+
+    <script src="scripts/navbar.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script type="module" src="scripts/news.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="title_heading">
+        <a class="logo" href="#">
+          <img src="./images/logo.jpg" alt="Sesquile Community Resource Hub" />
+          <h1>Sesquile Community Resource Hub</h1>
+        </a>
+        <a class="toggle-button">
+          <img id="menu_icon" src="./images/menu_icon.png" alt="menu_icon" />
+          <img id="close_icon" src="./images/close_icon.png" alt="close_icon" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./businesses.html">Businesses</a></li>
+          <li><a href="./attractions.html">Attractions</a></li>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./aboutus.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-image">
+          <img src="./images/hero.jpg" alt="Hero Image" />
+          <h1>Welcome to the community of the countryside</h1>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="weather">
+          <h2>Current Weather</h2>
+          <div class="wea-container">
+            <h2 class="temperature">Loading...</h2>
+            <div class="weather-icon">
+              <img
+                src="./images/placeholder-loading-icon.png"
+                alt="Weather Icon"
+              />
+            </div>
+          </div>
+          <div class="w-desc">
+            <h4 class="description">Loading...</h4>
+            <h4 class="high-low">High: Loading... Low: Loading...</h4>
+            <h4 class="humidity">Humidity: Loading...</h4>
+          </div>
+        </div>
+
+        <div class="map">
+          <h2>Map</h2>
+          <div class="placeholder-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3566.8492269585613!2d-73.79789665936413!3d5.044490290691281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sjp!4v1743671103579!5m2!1sen!2sjp&markers=color:red%7C5.044586,-73.798790"
+              width="100%"
+              height="250"
+              style="border: 0"
+              allowfullscreen="false"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="news">
+        <h2>Our latest news</h2>
+        <div id="new_news" class="news-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="currentyear"></span
+        ><span> Sesquile Community Resource Hub</span>
+      </p>
+    </footer>
+  </body>
+</html>
