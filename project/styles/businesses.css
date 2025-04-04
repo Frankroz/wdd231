@@ -44,8 +44,7 @@
   height: 30px;
 }
 
-select,
-#reset {
+select {
   padding: 0px 30px 0px 15px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -54,10 +53,19 @@ select,
 }
 
 #reset {
-  cursor: auto;
+  padding: 0px 30px 0px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 47.6px;
 }
 
-#reset:hover {
+.enabled {
+  background-color: #959e33;
+  color: #fff;
+  cursor: pointer;
+}
+
+.enabled:hover {
   background-color: #80872c;
 }
 

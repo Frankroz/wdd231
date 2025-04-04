@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sesquile Community Resource Hub - Attractions"
+    />
+    <meta name="author" content="Francisco Rodriguez" />
+    <title>Attractions - Sesquile Community Resource Hub</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/attractions.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+
+    <script src="scripts/navbar.js" defer></script>
+    <script type="module" src="scripts/attractions.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="title_heading">
+        <a class="logo" href="#">
+          <img src="./images/logo.jpg" alt="Sesquile Community Resource Hub" />
+          <h1>Sesquile Community Resource Hub</h1>
+        </a>
+        <a class="toggle-button">
+          <img id="menu_icon" src="./images/menu_icon.png" alt="menu_icon" />
+          <img id="close_icon" src="./images/close_icon.png" alt="close_icon" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./businesses.html">Businesses</a></li>
+          <li><a href="./attractions.html">Attractions</a></li>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./aboutus.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <h2>News</h2>
+      </section>
+
+      <div class="search-container">
+        <div class="search-bar-container">
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Search consoles..."
+            autocomplete="off"
+          />
+          <button id="search-btn">
+            <img src="images/search_icon.png" alt="search-icon" />
+          </button>
+        </div>
+        <select name="year" id="category">
+          <option value="def" selected>Category...</option>
+        </select>
+
+        <button id="reset" disabled>Reset filters</button>
+      </div>
+
+      <div id="container">
+        <div class="loading-spinner"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="currentyear"></span
+        ><span> Sesquile Community Resource Hub</span>
+      </p>
+    </footer>
+  </body>
+</html>

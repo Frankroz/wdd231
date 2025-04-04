@@ -86,9 +86,8 @@ const searchInput = document.getElementById("searchInput");
 if (searchBtn) {
   searchBtn.addEventListener("click", () => {
     resetBtn.disabled = false;
-    resetBtn.style.backgroundColor = "#959e33";
-    resetBtn.style.color = "#fff";
-    resetBtn.style.cursor = "pointer";
+  if (!resetBtn.classList.contains("enabled"))
+    resetBtn.classList.toggle("enabled");
 
     const newNews = news.filter((card) => {
       return (
@@ -106,9 +105,8 @@ const resetBtn = document.getElementById("reset");
 // Depending on the value of the filter, sort the News
 function sortNews() {
   resetBtn.disabled = false;
-  resetBtn.style.backgroundColor = "#959e33";
-  resetBtn.style.color = "#fff";
-  resetBtn.style.cursor = "pointer";
+  if (!resetBtn.classList.contains("enabled"))
+    resetBtn.classList.toggle("enabled");
 
   let newNews = [];
 
@@ -131,9 +129,7 @@ if (resetBtn) {
     dateSort.value = "def";
 
     resetBtn.disabled = true;
-    resetBtn.style.backgroundColor = "#ddd";
-    resetBtn.style.color = "#ccc";
-    resetBtn.style.cursor = "auto";
+    resetBtn.classList.toggle("enabled");
 
     searchInput.value = "";
     displayCards(news);
