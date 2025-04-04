@@ -13,6 +13,38 @@ if (localStorage.news) {
 
   localStorage.news = JSON.stringify(news);
 }
+const cardList = document.getElementById("container");
+
+function displayCards(news) {
+  cardList.innerHTML = "";
+
+  if (news.length > 0) {
+    news.forEach((newsInfo) => {
+      const card = document.createElement("a");
+      card.href = `description.html?news=${newsInfo.title.replaceAll(
+        " ",
+        "_"
+      )}`;
+      card.className = "card";
+      card.id = newsInfo.title.replace(" ", "-");
+      const cardContent = `<img src=${newsInfo.image} alt="${
+        newsInfo.title
+      }" loading="lazy"/>
+        <h3>${newsInfo.title}</h3>
+        <p>${newsInfo.summary}</p>
+        <p class="cardDate"><strong>${new Date(
+          Date.parse(newsInfo.date)
+        ).toDateString()}</strong></p>`;
+
+      card.innerHTML = cardContent;
+      cardList.appendChild(card);
+    });
+  } else {
+    cardList.innerHTML = "<h3>Nothing found...</h3>";
+  }
+}
+
+displayCards(news);
 
 const newNews_container = document.getElementById("new_news");
 const newNews = news.sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, 3);
@@ -34,14 +66,18 @@ function displayLatestNews() {
     )}" loading="lazy" class="placeholder-news" />
     <h3>${newsInfo.title}</h3>
     <p>${newsInfo.summary}</p>
-    <p><strong>${new Date(Date.parse(newsInfo.date)).toDateString()}</strong></p>`;
+    <p><strong>${new Date(
+      Date.parse(newsInfo.date)
+    ).toDateString()}</strong></p>`;
 
     card.innerHTML = cardContent;
     newNews_container.appendChild(card);
   });
 }
 
-displayLatestNews();
+if (newNews_container) {
+  displayLatestNews();
+}
 
 const searchBtn = document.getElementById("search-btn");
 const searchInput = document.getElementById("searchInput");
@@ -49,10 +85,15 @@ const searchInput = document.getElementById("searchInput");
 
 if (searchBtn) {
   searchBtn.addEventListener("click", () => {
+    resetBtn.disabled = false;
+    resetBtn.style.backgroundColor = "#959e33";
+    resetBtn.style.color = "#fff";
+    resetBtn.style.cursor = "pointer";
+
     const newNews = news.filter((card) => {
       return (
         card.title.toLowerCase().includes(searchInput.value.toLowerCase()) ||
-        card.content.toLowerCase().includes(searchInput.value.toLowerCase())
+        card.summary.toLowerCase().includes(searchInput.value.toLowerCase())
       );
     });
 
@@ -64,6 +105,11 @@ const dateSort = document.getElementById("sort-date");
 const resetBtn = document.getElementById("reset");
 // Depending on the value of the filter, sort the News
 function sortNews() {
+  resetBtn.disabled = false;
+  resetBtn.style.backgroundColor = "#959e33";
+  resetBtn.style.color = "#fff";
+  resetBtn.style.cursor = "pointer";
+
   let newNews = [];
 
   if (resetBtn.disabled === true) {
@@ -85,6 +131,11 @@ if (resetBtn) {
     dateSort.value = "def";
 
     resetBtn.disabled = true;
+    resetBtn.style.backgroundColor = "#ddd";
+    resetBtn.style.color = "#ccc";
+    resetBtn.style.cursor = "auto";
+
+    searchInput.value = "";
     displayCards(news);
   });
 }

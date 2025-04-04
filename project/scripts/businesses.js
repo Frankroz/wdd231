@@ -47,6 +47,8 @@ const resetBtn = document.getElementById("reset");
 searchBtn.addEventListener("click", () => {
   resetBtn.disabled = false;
   resetBtn.style.backgroundColor = "#959e33";
+  resetBtn.style.color = "#fff";
+  resetBtn.style.cursor = "pointer";
   const newConsoles = businesses.filter((businessInfo) => {
     return (
       businessInfo.name
@@ -64,7 +66,9 @@ searchBtn.addEventListener("click", () => {
 // Reset button
 resetBtn.addEventListener("click", () => {
   resetBtn.disabled = true;
-  searchInput.value = "";
   resetBtn.style.backgroundColor = "#ddd";
+  resetBtn.style.color = "#ccc";
+  resetBtn.style.cursor = "auto";
+  searchInput.value = "";
   displayCards(businesses);
 });

@@ -44,56 +44,23 @@
         <h2>Businesses</h2>
       </section>
 
-      <section class="business-search">
-        <input
-          id="searchInput"
-          type="text"
-          placeholder="Search Businesses..."
-        />
-        <div class="search-btns">
-          <button id="search-btn">Search</button>
-          <button id="reset" disabled>Reset</button>
+      <section class="search-container">
+        <div class="search-bar-container">
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Search consoles..."
+            autocomplete="off"
+          />
+          <button id="search-btn">
+            <img src="images/search_icon.png" alt="search-icon" />
+          </button>
         </div>
+        <button id="reset" disabled>Reset filters</button>
       </section>
 
-      <section id="business-grid" class="business-grid">
-        <div class="business-card">
-          <div class="placeholder-business"></div>
-          <h3>Heading</h3>
-        </div>
-        <div class="business-card">
-          <div class="placeholder-business"></div>
-          <h3>Heading</h3>
-        </div>
-        <div class="business-card">
-          <div class="placeholder-business"></div>
-          <h3>Heading</h3>
-        </div>
-        <div class="business-card">
-          <div class="placeholder-business"></div>
-          <h3>Heading</h3>
-        </div>
-        <div class="business-card">
-          <div class="placeholder-business"></div>
-          <h3>Heading</h3>
-        </div>
-        <div class="business-card">
-          <div class="placeholder-business"></div>
-          <h3>Heading</h3>
-        </div>
-        <div class="business-card">
-          <div class="placeholder-business"></div>
-          <h3>Heading</h3>
-        </div>
-        <div class="business-card">
-          <div class="placeholder-business"></div>
-          <h3>Heading</h3>
-        </div>
-        <div class="business-card">
-          <div class="placeholder-business"></div>
-          <h3>Heading</h3>
-        </div>
-      </section>
+      <section id="business-grid" class="business-grid"></section>
     </main>
 
     <footer>
