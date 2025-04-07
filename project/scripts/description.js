@@ -37,17 +37,19 @@ if (url.includes("attraction")) {
         <img src=${info.image} alt="${info.name}" loading="lazy"/>
         <div class="map-container">
             <h2>Location</h2>
-            <gmp-map
-            center="5.0444902,-73.7978966"
-            zoom="13"
-            map-id="MAP"
-            style="height: 400px;"
-            >
-                <gmp-advanced-marker
-                position="${info.coordinates.latitude},${info.coordinates.longitude}"
-                title="${info.name}"
-                ></gmp-advanced-marker>
-            </gmp-map>
+            <div class="placeholder-map">
+                <gmp-map
+                center="5.0444902,-73.7978966"
+                zoom="13"
+                map-id="MAP"
+                style="height: 400px;"
+                >
+                    <gmp-advanced-marker
+                    position="${info.coordinates.latitude},${info.coordinates.longitude}"
+                    title="${info.name}"
+                    ></gmp-advanced-marker>
+                </gmp-map>
+            </div>
         </div>
     </div>
     <p><strong>Category: </strong>${info.category}</p>
@@ -84,20 +86,22 @@ if (url.includes("attraction")) {
         <img src=${info.image} alt="${info.name}" loading="lazy"/>
         <div class="map-container">
             <h2>Location</h2>
-            <gmp-map
-            center="5.0444902,-73.7978966"
-            zoom="13"
-            map-id="MAP"
-            style="height: 400px"
-            >
-                <gmp-advanced-marker
-                position="${info.coordinates.latitude},${info.coordinates.longitude}"
-                title="${info.name}"
-                ></gmp-advanced-marker>
-            </gmp-map>
+            <div class="placeholder-map">
+                <gmp-map
+                center="5.0444902,-73.7978966"
+                zoom="13"
+                map-id="MAP"
+                style="height: 400px;"
+                >
+                    <gmp-advanced-marker
+                    position="${info.coordinates.latitude},${info.coordinates.longitude}"
+                    title="${info.name}"
+                    ></gmp-advanced-marker>
+                </gmp-map>
+            </div>
         </div>
     </div>
-    <p><strong>Category: </strong>${info.category}</p>
+    <p><strong>Address: </strong>${info.address}</p>
     <p class="description">${info.longer_description}</p>`;
   }
   // Search by console

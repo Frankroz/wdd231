@@ -18,11 +18,11 @@ h1 {
 }
 
 .img-map {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
-  justify-content: center;
+  gap: 2rem;
 }
 
 .map-container {

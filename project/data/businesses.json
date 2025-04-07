@@ -12,10 +12,10 @@
     }
   },
   {
-    "name": "Artesanías Guatavita",
+    "name": "Artesanias Guatavita",
     "type": "Crafts",
     "description": "Offers handmade crafts, pottery, and textiles from local artisans.",
-    "longer_description": "Discover the unique artistry of the Guatavita region at Artesanías Guatavita. We showcase a wide selection of handcrafted pottery, intricately woven textiles, and other traditional crafts made with passion and skill by local artisans. Each piece tells a story of the rich cultural heritage of our community.",
+    "longer_description": "Discover the unique artistry of the Guatavita region at Artesanias Guatavita. We showcase a wide selection of handcrafted pottery, intricately woven textiles, and other traditional crafts made with passion and skill by local artisans. Each piece tells a story of the rich cultural heritage of our community.",
     "address": "Carrera 5 #6-78, Guatavita, Cundinamarca",
     "image": "images/businesses/artesanias_guatavita.webp",
     "coordinates": {
@@ -36,10 +36,10 @@
     }
   },
   {
-    "name": "Panadería El Trigal",
+    "name": "Panaderia El Trigal",
     "type": "Bakery",
     "description": "A local bakery known for its fresh bread, pastries, and traditional Colombian sweets.",
-    "longer_description": "Start your day with the irresistible aroma of freshly baked goods from Panadería El Trigal. Our family-run bakery uses traditional recipes and the finest ingredients to create delicious bread, flaky pastries, and a delightful assortment of Colombian sweets. A local favorite for generations.",
+    "longer_description": "Start your day with the irresistible aroma of freshly baked goods from Panaderia El Trigal. Our family-run bakery uses traditional recipes and the finest ingredients to create delicious bread, flaky pastries, and a delightful assortment of Colombian sweets. A local favorite for generations.",
     "address": "Plaza Central #3-45, Sesquile, Cundinamarca",
     "image": "images/businesses/panaderia_trigal.webp",
     "coordinates": {
