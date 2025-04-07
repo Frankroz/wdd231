@@ -110,9 +110,6 @@ select {
   .business-search {
     max-width: 90%;
   }
-  .business-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
 }
 
 @media (max-width: 500px) {

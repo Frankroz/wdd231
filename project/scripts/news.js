@@ -44,7 +44,7 @@ function displayCards(news) {
   }
 }
 
-displayCards(news);
+if (cardList) displayCards(news);
 
 const newNews_container = document.getElementById("new_news");
 const newNews = news.sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, 3);
@@ -86,8 +86,8 @@ const searchInput = document.getElementById("searchInput");
 if (searchBtn) {
   searchBtn.addEventListener("click", () => {
     resetBtn.disabled = false;
-  if (!resetBtn.classList.contains("enabled"))
-    resetBtn.classList.toggle("enabled");
+    if (!resetBtn.classList.contains("enabled"))
+      resetBtn.classList.toggle("enabled");
 
     const newNews = news.filter((card) => {
       return (
