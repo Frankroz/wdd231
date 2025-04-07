@@ -3,8 +3,8 @@
     "name": "La Cosecha Restaurant",
     "type": "Restaurant",
     "description": "Serves traditional Colombian cuisine with fresh, local ingredients.",
-    "longer_description": "Step into La Cosecha and experience the authentic flavors of Colombia. Our menu features time-honored recipes passed down through generations, prepared with the freshest produce sourced directly from local farms in the Sesquilé region. Enjoy a warm and inviting atmosphere perfect for families and friends.",
-    "address": "Calle Principal #12-34, Sesquilé, Cundinamarca",
+    "longer_description": "Step into La Cosecha and experience the authentic flavors of Colombia. Our menu features time-honored recipes passed down through generations, prepared with the freshest produce sourced directly from local farms in the Sesquile region. Enjoy a warm and inviting atmosphere perfect for families and friends.",
+    "address": "Calle Principal #12-34, Sesquile, Cundinamarca",
     "image": "images/businesses/restaurant_cosecha.webp",
     "coordinates": {
       "latitude": 5.0738,
@@ -24,11 +24,11 @@
     }
   },
   {
-    "name": "EcoTours Sesquilé",
+    "name": "EcoTours Sesquile",
     "type": "Tourism",
     "description": "Provides guided tours and outdoor activities around Guatavita Lake and the surrounding area.",
-    "longer_description": "Embark on an unforgettable adventure with EcoTours Sesquilé. Our experienced guides offer a variety of eco-friendly tours and outdoor activities, including hiking around the mystical Guatavita Lake, birdwatching excursions, and exploration of the stunning natural landscapes surrounding Sesquilé. Discover the beauty of our region responsibly.",
-    "address": "Vereda El Salitre, Sesquilé, Cundinamarca",
+    "longer_description": "Embark on an unforgettable adventure with EcoTours Sesquile. Our experienced guides offer a variety of eco-friendly tours and outdoor activities, including hiking around the mystical Guatavita Lake, birdwatching excursions, and exploration of the stunning natural landscapes surrounding Sesquile. Discover the beauty of our region responsibly.",
+    "address": "Vereda El Salitre, Sesquile, Cundinamarca",
     "image": "images/businesses/ecotours_sesquile.webp",
     "coordinates": {
       "latitude": 5.0603,
@@ -40,7 +40,7 @@
     "type": "Bakery",
     "description": "A local bakery known for its fresh bread, pastries, and traditional Colombian sweets.",
     "longer_description": "Start your day with the irresistible aroma of freshly baked goods from Panadería El Trigal. Our family-run bakery uses traditional recipes and the finest ingredients to create delicious bread, flaky pastries, and a delightful assortment of Colombian sweets. A local favorite for generations.",
-    "address": "Plaza Central #3-45, Sesquilé, Cundinamarca",
+    "address": "Plaza Central #3-45, Sesquile, Cundinamarca",
     "image": "images/businesses/panaderia_trigal.webp",
     "coordinates": {
       "latitude": 5.0745,
@@ -51,8 +51,8 @@
     "name": "Finca La Esperanza",
     "type": "Farm Stay",
     "description": "Offers comfortable accommodations and farm experiences, including horseback riding and hiking.",
-    "longer_description": "Escape the hustle and bustle at Finca La Esperanza, a charming farm stay nestled in the peaceful countryside of Sesquilé. Enjoy comfortable accommodations, participate in daily farm activities, explore scenic hiking trails, and experience the tranquility of rural Colombian life. Perfect for a relaxing getaway.",
-    "address": "Vereda Tierra Negra, Sesquilé, Cundinamarca",
+    "longer_description": "Escape the hustle and bustle at Finca La Esperanza, a charming farm stay nestled in the peaceful countryside of Sesquile. Enjoy comfortable accommodations, participate in daily farm activities, explore scenic hiking trails, and experience the tranquility of rural Colombian life. Perfect for a relaxing getaway.",
+    "address": "Vereda Tierra Negra, Sesquile, Cundinamarca",
     "image": "images/businesses/finca_esperanza.webp",
     "coordinates": {
       "latitude": 5.0912,
@@ -60,11 +60,11 @@
     }
   },
   {
-    "name": "Sesquilé Coffee Cooperative",
+    "name": "Sesquile Coffee Cooperative",
     "type": "Coffee",
     "description": "A cooperative of local coffee growers, offering high-quality Colombian coffee.",
-    "longer_description": "Savor the rich taste of authentic Colombian coffee from the Sesquilé Coffee Cooperative. We are a collective of dedicated local farmers who cultivate and process premium coffee beans with care and tradition. Support our community and enjoy a truly exceptional cup.",
-    "address": "Calle 8 #9-10, Sesquilé, Cundinamarca",
+    "longer_description": "Savor the rich taste of authentic Colombian coffee from the Sesquile Coffee Cooperative. We are a collective of dedicated local farmers who cultivate and process premium coffee beans with care and tradition. Support our community and enjoy a truly exceptional cup.",
+    "address": "Calle 8 #9-10, Sesquile, Cundinamarca",
     "image": "images/businesses/coffee_cooperative.webp",
     "coordinates": {
       "latitude": 5.0758,
@@ -84,11 +84,11 @@
     }
   },
   {
-    "name": "Sesquilé Adventure Sports",
+    "name": "Sesquile Adventure Sports",
     "type": "Sports",
     "description": "Provides equipment rentals and guided activities for kayaking, fishing, and biking.",
-    "longer_description": "Experience the thrill of outdoor adventure with Sesquilé Adventure Sports. We offer a range of equipment rentals and guided activities, including kayaking and fishing on Tominé Reservoir, and scenic biking tours through the countryside. Get active and explore the natural beauty of Sesquilé.",
-    "address": "Lago Guatavita, Sesquilé, Cundinamarca (Office location near the lake)",
+    "longer_description": "Experience the thrill of outdoor adventure with Sesquile Adventure Sports. We offer a range of equipment rentals and guided activities, including kayaking and fishing on Tomine Reservoir, and scenic biking tours through the countryside. Get active and explore the natural beauty of Sesquile.",
+    "address": "Lago Guatavita, Sesquile, Cundinamarca (Office location near the lake)",
     "image": "images/businesses/adventure_sports.webp",
     "coordinates": {
       "latitude": 5.055,
@@ -99,8 +99,8 @@
     "name": "Mercado Campesino",
     "type": "Market",
     "description": "A farmers market selling fresh produce, dairy products, and local crafts.",
-    "longer_description": "Immerse yourself in the local culture at the Mercado Campesino. Our vibrant farmers market offers a wide variety of fresh, locally grown produce, artisanal dairy products, and unique handcrafted items. Support local farmers and discover the flavors and crafts of Sesquilé.",
-    "address": "Plaza de Mercado, Sesquilé, Cundinamarca",
+    "longer_description": "Immerse yourself in the local culture at the Mercado Campesino. Our vibrant farmers market offers a wide variety of fresh, locally grown produce, artisanal dairy products, and unique handcrafted items. Support local farmers and discover the flavors and crafts of Sesquile.",
+    "address": "Plaza de Mercado, Sesquile, Cundinamarca",
     "image": "images/businesses/mercado_campesino.webp",
     "coordinates": {
       "latitude": 5.074,

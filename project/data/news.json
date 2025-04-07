@@ -1,56 +1,65 @@
 [
   {
-    "title": "Sesquilé Celebrates Annual Corn Festival",
+    "title": "Sesquile Celebrates Annual Corn Festival",
     "date": "2023-11-15",
-    "summary": "The town of Sesquilé held its annual Corn Festival, showcasing local agricultural traditions and delicious corn-based dishes.",
-    "image": "images/news/corn_festival.webp"
+    "summary": "The town of Sesquile held its annual Corn Festival, showcasing local agricultural traditions and delicious corn-based dishes.",
+    "image": "images/news/corn_festival.webp",
+    "longer_description": "Every year, the community of Sesquilé comes together to celebrate its rich agricultural heritage with the annual Corn Festival. This vibrant event features parades with intricately decorated floats made from corn stalks and husks, traditional music and dance performances, and a wide array of mouthwatering corn-based delicacies. Local farmers proudly display their harvest, and visitors can participate in corn-shucking contests and other fun activities for all ages. It's a true celebration of Sesquilé's connection to the land."
   },
   {
     "title": "New Hiking Trails Opened in Guatavita Lake Region",
     "date": "2023-10-28",
     "summary": "Hikers can now enjoy newly opened trails around the scenic Guatavita Lake, offering breathtaking views and natural beauty.",
-    "image": "images/news/guatavita_trails.webp"
+    "image": "images/news/guatavita_trails.webp",
+    "longer_description": "Nature enthusiasts and outdoor adventurers will be thrilled to discover the newly inaugurated network of hiking trails surrounding the stunning Guatavita Lake. These well-maintained paths wind through lush Andean forests, offering panoramic vistas of the emerald-green lake and the surrounding mountains. Whether you're looking for a leisurely stroll or a more challenging trek, these trails provide an immersive experience in the natural beauty and tranquility of this legendary region."
   },
   {
-    "title": "Sesquilé Artisan Market Showcases Local Crafts",
+    "title": "Sesquile Artisan Market Showcases Local Crafts",
     "date": "2023-10-10",
-    "summary": "Local artisans displayed their handmade crafts and products at the Sesquilé Artisan Market, attracting visitors from across the region.",
-    "image": "images/news/artisan_market.webp"
+    "summary": "Local artisans displayed their handmade crafts and products at the Sesquile Artisan Market, attracting visitors from across the region.",
+    "image": "images/news/artisan_market.webp",
+    "longer_description": "The Sesquilé Artisan Market provided a wonderful opportunity to appreciate the skill and creativity of local craftspeople. Held in the heart of town, the market featured a diverse collection of handmade goods, including intricately woven textiles, unique pottery, hand-carved wooden items, and beautiful jewelry. Visitors had the chance to meet the artisans, learn about their techniques, and purchase one-of-a-kind souvenirs that reflect the cultural heritage of the Sesquilé region."
   },
   {
     "title": "Community Project Restores Historic Church Facade",
     "date": "2023-09-22",
-    "summary": "A community-led project successfully restored the facade of the historic Sesquilé church, preserving a vital part of the town's heritage.",
-    "image": "images/news/church_restoration.webp"
+    "summary": "A community-led project successfully restored the facade of the historic Sesquile church, preserving a vital part of the town's heritage.",
+    "image": "images/news/church_restoration.webp",
+    "longer_description": "Thanks to the dedicated efforts of local volunteers and generous donations, the historic facade of the Sesquilé church has been lovingly restored to its former glory. This significant community project has preserved the architectural beauty and historical importance of this cherished landmark, ensuring that future generations can appreciate its intricate details and its role in the town's past. The restoration project stands as a testament to the strong sense of community pride in Sesquilé."
   },
   {
-    "title": "Sesquilé Wins Regional Agricultural Award",
+    "title": "Sesquile Wins Regional Agricultural Award",
     "date": "2023-09-05",
-    "summary": "Sesquilé's agricultural community received a regional award for its sustainable farming practices and high-quality produce.",
-    "image": "images/news/agricultural_award.webp"
+    "summary": "Sesquile's agricultural community received a regional award for its sustainable farming practices and high-quality produce.",
+    "image": "images/news/agricultural_award.webp",
+    "longer_description": "The agricultural community of Sesquilé has been recognized for its commitment to sustainable farming practices and the exceptional quality of its produce. This prestigious regional award highlights the dedication of local farmers to environmentally friendly methods and their contribution to the region's reputation for fresh, delicious food. It's a well-deserved honor that reflects the hard work and innovation within Sesquilé's agricultural sector."
   },
   {
     "title": "Local School Hosts Environmental Awareness Day",
     "date": "2023-08-18",
-    "summary": "Students from the Sesquilé school organized an Environmental Awareness Day, promoting eco-friendly practices and conservation efforts.",
-    "image": "images/news/environmental_day.webp"
+    "summary": "Students from the Sesquile school organized an Environmental Awareness Day, promoting eco-friendly practices and conservation efforts.",
+    "image": "images/news/environmental_day.webp",
+    "longer_description": "The students of Sesquilé's local school took the initiative to organize a successful Environmental Awareness Day. The event featured informative workshops, interactive exhibits, and engaging activities designed to educate the community about the importance of environmental protection and sustainable living. The students' enthusiasm and commitment to raising awareness demonstrated a strong sense of responsibility towards the natural beauty of the Sesquilé region."
   },
   {
-    "title": "Sesquilé's Youth Soccer Team Advances to Regional Finals",
+    "title": "Sesquile's Youth Soccer Team Advances to Regional Finals",
     "date": "2023-08-02",
-    "summary": "The Sesquilé youth soccer team secured a spot in the regional finals after a thrilling victory in the semi-final match.",
-    "image": "images/news/soccer_finals.webp"
+    "summary": "The Sesquile youth soccer team secured a spot in the regional finals after a thrilling victory in the semi-final match.",
+    "image": "images/news/soccer_finals.webp",
+    "longer_description": "The Sesquilé youth soccer team has brought great pride to the community with their impressive performance in the regional playoffs. Their hard work, teamwork, and determination culminated in a thrilling victory in the semi-final match, securing their place in the highly anticipated regional finals. The entire town is rallying behind the team as they prepare for the championship game."
   },
   {
-    "title": "New Community Library Opens in Sesquilé",
+    "title": "New Community Library Opens in Sesquile",
     "date": "2023-07-15",
-    "summary": "Sesquilé residents now have access to a new community library, offering a wide range of books and educational resources.",
-    "image": "images/news/community_library.webp"
+    "summary": "Sesquile residents now have access to a new community library, offering a wide range of books and educational resources.",
+    "image": "images/news/community_library.webp",
+    "longer_description": "The opening of the new community library marks a significant addition to the educational and cultural resources available to the residents of Sesquilé. The library boasts a diverse collection of books, periodicals, and digital resources, as well as comfortable reading areas and community spaces for workshops and events. It serves as a welcoming hub for learning, exploration, and connection for people of all ages in Sesquilé."
   },
   {
-    "title": "Sesquilé's Traditional Music Festival a Success",
+    "title": "Sesquile's Traditional Music Festival a Success",
     "date": "2023-07-01",
-    "summary": "The annual Traditional Music Festival in Sesquilé drew large crowds, celebrating the region's rich musical heritage.",
-    "image": "images/news/music_festival.webp"
+    "summary": "The annual Traditional Music Festival in Sesquile drew large crowds, celebrating the region's rich musical heritage.",
+    "image": "images/news/music_festival.webp",
+    "longer_description": "The annual Traditional Music Festival in Sesquilé was once again a resounding success, drawing large crowds eager to celebrate the region's vibrant musical heritage. The festival featured performances by talented local musicians showcasing traditional Colombian rhythms and melodies. The lively atmosphere, colorful costumes, and joyful music created a memorable cultural experience for both residents and visitors alike."
   }
 ]

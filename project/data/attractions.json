@@ -11,10 +11,10 @@
     }
   },
   {
-    "name": "Sesquilé Church",
+    "name": "Sesquile Church",
     "category": "Historical",
     "description": "A historic church with beautiful colonial architecture and religious significance.",
-    "longer_description": "The Sesquilé Church, a prominent landmark in the town's central square, showcases impressive colonial architecture dating back to the 18th century. Its intricate details, religious artwork, and peaceful atmosphere offer a glimpse into the region's rich history and cultural heritage. Visitors are welcome to admire its beauty and learn about its significance to the local community.",
+    "longer_description": "The Sesquile Church, a prominent landmark in the town's central square, showcases impressive colonial architecture dating back to the 18th century. Its intricate details, religious artwork, and peaceful atmosphere offer a glimpse into the region's rich history and cultural heritage. Visitors are welcome to admire its beauty and learn about its significance to the local community.",
     "image": "images/attractions/sesquile_church.webp",
     "coordinates": {
       "latitude": 5.0748,
@@ -36,7 +36,7 @@
     "name": "Tomine Reservoir",
     "category": "Recreation",
     "description": "A large reservoir offering opportunities for boating, fishing, and picnicking.",
-    "longer_description": "Tominé Reservoir, a vast expanse of water surrounded by rolling hills, is a popular destination for outdoor recreation. Visitors can enjoy boat tours, try their hand at fishing, or simply relax by the shore and enjoy a picnic amidst the scenic surroundings. The reservoir also plays an important role in the region's water supply and irrigation.",
+    "longer_description": "Tomine Reservoir, a vast expanse of water surrounded by rolling hills, is a popular destination for outdoor recreation. Visitors can enjoy boat tours, try their hand at fishing, or simply relax by the shore and enjoy a picnic amidst the scenic surroundings. The reservoir also plays an important role in the region's water supply and irrigation.",
     "image": "images/attractions/tomine_reservoir.webp",
     "coordinates": {
       "latitude": 5.025,
@@ -44,10 +44,10 @@
     }
   },
   {
-    "name": "Sesquilé Viewpoint",
+    "name": "Sesquile Viewpoint",
     "category": "Nature",
     "description": "Offers panoramic views of the town and surrounding countryside.",
-    "longer_description": "For breathtaking panoramic views of the charming town of Sesquilé and the picturesque surrounding countryside, head to the Sesquilé Viewpoint. From this vantage point, you can admire the patchwork of fields, rolling hills, and the distant mountains, providing a perfect photo opportunity and a moment of peaceful contemplation.",
+    "longer_description": "For breathtaking panoramic views of the charming town of Sesquile and the picturesque surrounding countryside, head to the Sesquile Viewpoint. From this vantage point, you can admire the patchwork of fields, rolling hills, and the distant mountains, providing a perfect photo opportunity and a moment of peaceful contemplation.",
     "image": "images/attractions/sesquile_viewpoint.webp",
     "coordinates": {
       "latitude": 5.078,
@@ -66,10 +66,10 @@
     }
   },
   {
-    "name": "Sesquilé Cultural Center",
+    "name": "Sesquile Cultural Center",
     "category": "Culture",
     "description": "Hosts cultural events, workshops, and exhibitions showcasing local arts and traditions.",
-    "longer_description": "The Sesquilé Cultural Center serves as a hub for artistic expression and cultural preservation in the community. Throughout the year, it hosts a variety of events, including traditional music performances, art exhibitions by local artists, craft workshops, and educational programs that celebrate the rich heritage of Sesquilé and the surrounding region.",
+    "longer_description": "The Sesquile Cultural Center serves as a hub for artistic expression and cultural preservation in the community. Throughout the year, it hosts a variety of events, including traditional music performances, art exhibitions by local artists, craft workshops, and educational programs that celebrate the rich heritage of Sesquile and the surrounding region.",
     "image": "images/attractions/cultural_center.webp",
     "coordinates": {
       "latitude": 5.073,
@@ -80,7 +80,7 @@
     "name": "Local Farms (Agricultural Tours)",
     "category": "Agritourism",
     "description": "Offers tours of local farms, showcasing traditional farming practices and produce.",
-    "longer_description": "Experience the authentic rural life of Sesquilé with a visit to one of the local farms offering agricultural tours. Learn about traditional farming techniques, see how fresh produce is grown, and perhaps even participate in some hands-on activities. It's a wonderful opportunity to connect with nature and appreciate the region's agricultural heritage.",
+    "longer_description": "Experience the authentic rural life of Sesquile with a visit to one of the local farms offering agricultural tours. Learn about traditional farming techniques, see how fresh produce is grown, and perhaps even participate in some hands-on activities. It's a wonderful opportunity to connect with nature and appreciate the region's agricultural heritage.",
     "image": "images/attractions/local_farms.webp",
     "coordinates": {
       "latitude": 5.08,
